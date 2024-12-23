@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: "Outfit", serif;
+
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+main {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto;
+  background-color: white;
+  max-width: 800px;
+  
+}
+
+img[alt="omelet picture"] {
+  width: 90%;
+  margin: 2.5rem;
+  border-radius: 30px;
+  
+
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 3%;
+  margin-top: 2rem;
+}
+
+p {
+  color: hsl(30, 10%, 34%)
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+strong {
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients-list {
+  margin: 2rem 0;
+}
+
+.instructions-list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 900;
+}
+
+.instructions-list {
+  margin-bottom: 3rem;
+}
+
+hr {
+  border-color: white;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.nutrition-table strong {
+  color: hsl(14, 45%, 36%);
+}
+.content{
+  margin: 2.5rem;
+}
+@media all and (max-width:799px) {
+  main {
+    margin: 0;
+    border-radius: 0;
+    
+  }
+  .content{
+    margin: 1rem;
+  }
+  img[alt="omelet picture"] {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
